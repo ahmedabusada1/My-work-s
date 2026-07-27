@@ -1,30 +1,26 @@
-
 /* ==========================
 RESET
 ========================== */
 
 *{
-
-margin:0;
-padding:0;
-box-sizing:border-box;
-
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 html{
-
-scroll-behavior:smooth;
-
+    scroll-behavior:smooth;
 }
 
 body{
 
-font-family:'Outfit',sans-serif;
-background:#0b1120;
-color:#fff;
-overflow-x:hidden;
+    font-family:'Outfit',sans-serif;
+    background:#0b1120;
+    color:#fff;
+    overflow-x:hidden;
 
 }
+
 
 /* ==========================
 Container
@@ -32,10 +28,11 @@ Container
 
 .container{
 
-width:min(90%,1100px);
-margin:auto;
+    width:min(90%,1100px);
+    margin:auto;
 
 }
+
 
 /* ==========================
 Hero
@@ -43,323 +40,411 @@ Hero
 
 .hero{
 
-min-height:100vh;
+    min-height:100vh;
 
-display:flex;
-justify-content:center;
-align-items:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-text-align:center;
+    text-align:center;
 
-padding:80px 20px;
+    padding:80px 20px;
 
 }
+
 
 .profile{
 
-width:190px;
-height:190px;
+    width:190px;
+    height:190px;
 
-border-radius:50%;
+    border-radius:50%;
 
-object-fit:cover;
+    object-fit:cover;
 
-margin-bottom:35px;
+    margin-bottom:35px;
 
-box-shadow:
-0 20px 45px rgba(0,0,0,.45);
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.45);
 
-transition:.4s;
+    transition:.4s;
 
 }
+
 
 .profile:hover{
 
-transform:scale(1.05);
+    transform:scale(1.05);
 
 }
+
 
 .hero h3{
 
-color:#38bdf8;
+    color:#38bdf8;
 
-font-size:22px;
+    font-size:22px;
 
-font-weight:400;
+    font-weight:400;
 
-margin-bottom:10px;
+    margin-bottom:10px;
 
 }
+
 
 .hero h1{
 
-font-size:60px;
+    font-size:60px;
 
-font-weight:700;
+    font-weight:700;
 
-margin-bottom:10px;
+    margin-bottom:10px;
 
 }
+
 
 .hero h2{
 
-font-size:28px;
+    font-size:28px;
 
-font-weight:400;
+    font-weight:400;
 
-color:#94a3b8;
+    color:#94a3b8;
 
-margin-bottom:30px;
+    margin-bottom:30px;
 
 }
+
 
 .hero p{
 
-max-width:650px;
+    max-width:650px;
 
-margin:auto;
+    margin:auto;
 
-font-size:18px;
+    font-size:18px;
 
-line-height:1.8;
+    line-height:1.8;
 
-color:#cbd5e1;
+    color:#cbd5e1;
 
-margin-bottom:45px;
+    margin-bottom:45px;
 
 }
+
+
 
 .btn{
 
-display:inline-block;
+    display:inline-block;
 
-padding:16px 36px;
+    padding:16px 36px;
 
-background:#38bdf8;
+    background:#38bdf8;
 
-color:#fff;
+    color:#fff;
 
-text-decoration:none;
+    text-decoration:none;
 
-border-radius:50px;
+    border-radius:50px;
 
-font-weight:600;
+    font-weight:600;
 
-transition:.35s;
+    transition:.35s;
 
 }
+
+
 
 .btn:hover{
 
-transform:translateY(-5px);
+    transform:translateY(-5px);
 
-background:#0ea5e9;
+    background:#0ea5e9;
 
 }
+
+
 
 /* ==========================
 Sections
 ========================== */
 
+
 section{
 
-padding:90px 20px;
+    padding:90px 20px;
 
 }
+
 
 .section-title{
 
-text-align:center;
+    text-align:center;
 
-margin-bottom:60px;
+    margin-bottom:60px;
 
 }
+
 
 .section-title h2{
 
-font-size:40px;
+    font-size:40px;
 
-margin-bottom:10px;
+    margin-bottom:10px;
 
 }
+
 
 .section-title p{
 
-color:#94a3b8;
+    color:#94a3b8;
 
 }
+
+
 
 /* ==========================
 Projects
 ========================== */
 
+
 .projects{
 
-display:grid;
+    display:grid;
 
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 
-gap:30px;
+    gap:30px;
 
-width:min(90%,1200px);
+    width:min(90%,1200px);
 
-margin:auto;
+    margin:auto;
 
 }
+
 
 .card{
 
-background:#111827;
+    background:#111827;
 
-border-radius:25px;
+    border-radius:25px;
 
-overflow:hidden;
+    overflow:hidden;
 
-transition:.35s;
+    transition:.35s;
 
-cursor:pointer;
+    cursor:pointer;
 
-box-shadow:0 20px 40px rgba(0,0,0,.25);
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.25);
+
+    text-decoration:none;
+
+    display:block;
 
 }
+
+
 
 .card:hover{
 
-transform:translateY(-10px);
+    transform:translateY(-10px);
 
 }
+
+
 
 .card img{
 
-width:100%;
+    width:100%;
 
-height:230px;
+    height:230px;
 
-object-fit:cover;
+    object-fit:cover;
 
-display:block;
+    display:block;
 
-transition:.45s;
+    transition:.45s;
 
 }
+
+
 
 .card:hover img{
 
-transform:scale(1.06);
+    transform:scale(1.06);
 
 }
+
+
 
 /* ==========================
 Contact
 ========================== */
 
+
 .socials{
 
-display:flex;
+    display:flex;
 
-justify-content:center;
+    justify-content:center;
 
-flex-wrap:wrap;
+    flex-wrap:wrap;
 
-gap:25px;
+    gap:25px;
 
 }
+
+
 
 .social{
 
-display:flex;
+    display:flex;
 
-align-items:center;
+    align-items:center;
 
-gap:15px;
+    gap:15px;
 
-text-decoration:none;
+    text-decoration:none;
 
-color:#fff;
+    color:#fff;
 
-padding:18px 35px;
+    padding:18px 35px;
 
-background:#111827;
+    background:#111827;
 
-border-radius:60px;
+    border-radius:60px;
 
-transition:.35s;
+    transition:.35s;
 
-font-size:18px;
+    font-size:18px;
 
 }
+
+
 
 .social i{
 
-font-size:28px;
+    font-size:28px;
 
 }
+
+
 
 .social:hover{
 
-transform:translateY(-6px);
+    transform:translateY(-6px);
 
-background:#1e293b;
+    background:#1e293b;
 
 }
+
+
+
+/* WhatsApp */
 
 .whatsapp i{
 
-color:#25D366;
+    color:#25D366;
 
 }
+
+
+
+/* LinkedIn */
 
 .linkedin i{
 
-color:#0A66C2;
+    color:#0A66C2;
 
 }
+
+
+
+/* Email */
+
+.email i{
+
+    color:#38bdf8;
+
+}
+
+
 
 /* ==========================
 Footer
 ========================== */
 
+
 footer{
 
-text-align:center;
+    text-align:center;
 
-padding:35px;
+    padding:35px;
 
-color:#94a3b8;
+    color:#94a3b8;
 
-font-size:15px;
+    font-size:15px;
 
 }
+
+
 
 /* ==========================
 Responsive
 ========================== */
 
+
 @media(max-width:768px){
+
 
 .hero h1{
 
-font-size:42px;
+    font-size:42px;
 
 }
+
 
 .hero h2{
 
-font-size:22px;
+    font-size:22px;
 
 }
+
 
 .hero p{
 
-font-size:16px;
+    font-size:16px;
 
 }
+
 
 .profile{
 
-width:150px;
-height:150px;
+    width:150px;
+
+    height:150px;
 
 }
+
+
+
+.card img{
+
+    height:200px;
+
+}
+
+
+.social{
+
+    width:90%;
+
+    justify-content:center;
+
+}
+
+
 
 }
